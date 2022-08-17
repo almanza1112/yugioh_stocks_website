@@ -5,6 +5,12 @@
 
 @layer base {
   body {
-    @apply bg-yellow-500;
+    @apply bg-teal-600;
+    @apply text-yellow-300;
+  }
+
+  nav li {
+    @apply ml-10;
+    @apply uppercase hover:text-pink-600;
   }
 }
