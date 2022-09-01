@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   body {
+    @apply font-Josefin;
     @apply bg-teal-600;
     @apply text-yellow-300;
+    @apply subpixel-antialiased;
   }
 
   nav li {
