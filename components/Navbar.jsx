@@ -11,22 +11,19 @@ const Navbar = () => {
     }
 
   return (
-    <nav className='fixed w-full h-20 z-[100] p-4 md:p-8 transparent'>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    <nav className='fixed w-full h-20 z-[100] px-4 md:px-8 transparent'>
+        <div className='max-w-screen-2xl flex justify-between items-center w-full h-full'>
             <Image src='' alt=''/>
             <div>
                 <ul className='hidden md:flex items-center'>
                     <Link href='/'>
-                        <li>Home</li>
-                    </Link>
-                    <Link href='/'>
                         <li>Watchlist</li>
                     </Link>
                     <Link href='/'>
-                        <li>Log In</li>
+                        <li>Sign Up</li>
                     </Link>
                     <Link href='/'>
-                        <li className='rounded-lg p-2 bg-neutral-200 text-gray-600'>Sign Up</li>
+                        <li className='rounded-lg p-2 bg-neutral-200 text-gray-600'>Log In</li>
                     </Link>
                 </ul>
             </div>

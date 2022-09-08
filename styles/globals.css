@@ -4,9 +4,8 @@
 
 @layer base {
   body {
+    @apply bg-zinc-50;
     @apply font-Josefin;
-    @apply bg-teal-600;
-    @apply text-yellow-300;
     @apply subpixel-antialiased;
   }
 
