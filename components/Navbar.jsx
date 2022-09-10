@@ -14,16 +14,18 @@ const Navbar = () => {
     <nav className='fixed w-full h-20 z-[100] px-4 md:px-8 transparent'>
         <div className='max-w-screen-2xl flex justify-between items-center w-full h-full'>
             <Image src='' alt=''/>
+
+            <input className='w-full' placeholder='Search by name or set code'/>
             <div>
                 <ul className='hidden md:flex items-center'>
                     <Link href='/'>
                         <li>Watchlist</li>
                     </Link>
                     <Link href='/'>
-                        <li>Sign Up</li>
+                        <li className='whitespace-nowrap overflow-hidden'>Sign Up</li>
                     </Link>
                     <Link href='/'>
-                        <li className='rounded-lg p-2 bg-neutral-200 text-gray-600'>Log In</li>
+                          <li className='whitespace-nowrap overflow-hidden rounded-lg p-2 bg-neutral-200 text-gray-600'>Log In</li>
                     </Link>
                 </ul>
             </div>
@@ -56,7 +58,7 @@ const Navbar = () => {
                             <li>Watchlist</li>
                         </Link>
                         <Link href='/'>
-                            <li>Log In</li>
+                              <li>Log In</li>
                         </Link>
                         <Link href='/'>
                             <li className='rounded-lg p-2 bg-neutral-200 text-gray-600 w-fit'>Sign Up</li>
